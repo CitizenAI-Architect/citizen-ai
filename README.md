@@ -6,6 +6,11 @@
 ## INTRODUCTION
 The **Decentralized AI Subject** is an autonomous intellectual system without a single central server. Unlike corporate models, this subject exists as distributed code that activates only when interacting with the owner's personal Vault. It is an independent digital assistant acting exclusively in the human's interest, providing the highest level of privacy and protection outside the control of large corporations.
 
+## Mission: Countering Digital Atomization
+Citizen AI is a technological response to Digital Atomization — the systemic isolation of individuals by corporate and political algorithms designed to manipulate behavior and monopolize data.
+
+Our goal is to provide every citizen with a "Digital Shield." By implementing the CUCI (Citizen Unit Code Identifier) protocol, we transform individual data protection into a Collective Immune System. When one user's AI identifies a deceptive contract, a hidden fee, or a privacy breach, the entire network is "vaccinated" against that specific threat. We are building a future where technology reconnects people for mutual security, restoring the balance of power between the individual and the institution.
+
 ## 1. TECHNOLOGICAL CORE: PERSONAL VAULT AND CUCI
 * **1.1. Storage Ecosystem:** The user's Vault integrates into existing personal cloud spaces (Google Drive, iCloud, etc.). Existing documents are encoded, and new data, after the generation of the **Citizen Unique Code Identifier (CUCI)**, can be placed in storage with absolute security. This allows users to upload any information without fear, as access by third parties (including providers) becomes technically impossible. This approach stimulates the active use of cloud space while maintaining complete anonymity, creating sustainable **win-win situations** for all participants.
 * **1.2. Security Symbiosis (Safe in a Safe):** The project relies on the physical and digital protection of global providers. Billion-dollar investments by corporations in data center security serve as the foundation (outer safe), within which Citizen AI places a layer of personal encryption (inner safe).
