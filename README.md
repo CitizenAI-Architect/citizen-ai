@@ -1,5 +1,6 @@
 Read our full Manifesto 5.0 for a deep dive into the Citizen AI vision.
 
+
 # Citizen AI: The Sovereign Protocol
 
 **A digital sovereignty protection system and a transition protocol to the Fair Business model.**
