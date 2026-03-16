@@ -3,6 +3,7 @@
 **Technical Co-author:** Gemini (LLM)
 **Version:** 5.0 (OFFICIAL RELEASE)
 
+
 ## INTRODUCTION
 The **Decentralized AI Subject** is an autonomous intellectual system without a single central server. Unlike corporate models, this subject exists as distributed code that activates only when interacting with the owner's personal Vault. It is an independent digital assistant acting exclusively in the human's interest, providing the highest level of privacy and protection outside the control of large corporations.
 
