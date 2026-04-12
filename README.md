@@ -1,3 +1,13 @@
+# Citizen AI
+
+> **Attention Visionaries, Philanthropists, and Architects:**
+> We are building the infrastructure for Digital Immunity.
+> 
+> ### 🔗 EXECUTIVE SUMMARY: https://github.com/CitizenAI-Architect/citizen-ai/blob/main/EXECUTIVE_SUMMARY.md
+> ### 🔗 VISION 2026: https://github.com/CitizenAI-Architect/citizen-ai/blob/main/VISION_2026.md
+
+---
+
 Read our full Manifesto 5.0 for a deep dive into the Citizen AI vision.
 
 
