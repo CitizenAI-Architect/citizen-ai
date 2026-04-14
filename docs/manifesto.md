@@ -14,9 +14,9 @@ The Decentralized AI Subject is an autonomous intellectual system without a sing
 ---
 
 ## 1. TECHNOLOGICAL CORE: PERSONAL VAULT AND CUCI
-* **1.1. Storage Ecosystem:** The user's Vault integrates into existing personal cloud spaces. Existing documents are encoded, and new data, protected by the CUCI protocol, is stored with absolute security. This allows users to utilize cloud space while maintaining complete anonymity.
+* **1.1. Storage Ecosystem:** The user's Vault integrates into existing personal cloud spaces. Existing documents are transformed into an anonymous digital fog. Using the CUCI protocol, data is fragmented and obfuscated, making it unrecognizable to the storage provider.
 * **1.2. Security Symbiosis (Safe in a Safe):** We utilize the multi-billion dollar infrastructure of global providers as a physical foundation (outer safe), within which Citizen AI places a layer of personal encryption (inner safe).
-* **1.3. Hybrid Processing:** Routine tasks and text analysis are performed locally. High-resource tasks (e.g., complex video analysis) utilize external computing power strictly in a de-identified, anonymous format.
+* **1.3. Hybrid Processing:** Routine tasks and text analysis are performed locally. High-resource tasks (e.g., complex video analysis) utilize external computing power strictly in a de-identified, anonymous format. All processing and decryption occur strictly in volatile memory (RAM). The system is designed with Zero-Persistence: it 'forgets' all decryption keys and plain-text fragments immediately after the session ends or the interface is closed.
 * **1.4. Backup System:** CUCI key segments can be distributed across independent services or saved on physical media, guaranteeing access recovery even in case of a primary account lockout.
 
 ---
@@ -30,7 +30,7 @@ The Decentralized AI Subject is an autonomous intellectual system without a sing
 ## 3. CITIZEN AI FUNCTIONALITY (MVP)
 * **3.1. Financial Audit:** Analysis of bank statements and financial products to identify hidden fees and incorrect charges.
 * **3.2. Operational Obligation Analysis:** Instant analysis of contracts (rent, employment, loans). Future integration into e-services will protect deals at the moment of execution.
-* **3.3. Civic Navigation:** Deep analysis of **election campaigns and political programs**. Translating declarations into specific indicators of influence on the user's rights and budget.
+* **3.3. Civic Navigation:** Deep analysis of **election campaigns and political programs**. Translating declarations into specific indicators of influence on the user's rights and budget. This analysis is performed using Blind Indexing, ensuring that the user’s interests and inquiries remain invisible to third-party tracking algorithms. 
 * **3.4. Safety and Search:** Integration with local infrastructure for the rapid, non-intrusive search for **missing children or lost pets**, utilizing secure visual signatures.
 
 ---
@@ -48,7 +48,7 @@ The Decentralized AI Subject is an autonomous intellectual system without a sing
 ---
 
 ## 6. ROADMAP
-* **CUCI Core Design (5 months):** Technical documentation of encryption algorithms and key segmentation protocols.
+* **CUCI Architecture Finalization (Completed/Current): Transitioning from theoretical protocols to the creation of the system's "Fog Engine".
 * **Deception Database Formation (4 months):** Preparing the AI architecture for legal databases, election programs, and deception detection algorithms.
 * **Network Protocol Development (3 months):** Modeling the anonymous data exchange system and creating full technical specifications.
 
