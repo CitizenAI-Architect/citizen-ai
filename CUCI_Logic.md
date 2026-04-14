@@ -1,28 +1,32 @@
-# CUCI Logic: The Vault & Hybrid Anchor
+# CUCI Logic: The Vault & Hybrid Anchor (Final Spec)
 
 ## 1. The Fog Engine (Under the Hood)
 The mathematical algorithm responsible for data fragmentation and encryption.
-- **Operation:** Works invisibly to ensure a seamless "plug-and-play" experience.
-- **Personalized Fog:** During first activation, the engine generates a unique "Mathematical Salt" (Personal Seed). This ensures that even with the same code, every user produces a unique "fog signature".
+- **Operation:** Works invisibly "under the hood" to ensure a seamless experience.
+- **Personalized Fog:** Generates a unique "Mathematical Salt" (Personal Seed) during first activation, ensuring unique fog signatures for every user.
+- **Block-Level Processing (Chunking):** The Vault is divided into small encrypted blocks. This prevents sync conflicts and allows updating only changed parts of the data.
 
 ## 2. The Vault Protocol (Safe-within-a-Safe)
-Instead of encrypting individual files, the system creates an obfuscated virtual container (The Vault).
-- **Storage:** The cloud provider sees only one large, encrypted binary object.
+- **Storage:** The cloud provider sees only an obfuscated collection of binary blocks.
 - **Visibility:** Internal structures (filenames, hierarchy, metadata) are completely hidden.
-- **Scalability:** The Vault is designed to match the user's cloud storage capacity (e.g., if the cloud is 1TB, the Vault operates within that 1TB).
+- **Data Padding:** The system adds "noise" to blocks to mask the actual size and type of the files.
+- **RAM-Only Processing:** Decryption occurs strictly in the device's volatile memory (RAM) to prevent data leaks to the physical drive.
 
 ## 3. The Hybrid Key (The Lens Trigger)
-The mechanism that activates the Fog Engine to "unfog" the Vault. It consists of two parts:
-
-- **Static Part (The "Dead" Key):** An encrypted file-based backup containing the "Personal Seed". It can be stored anywhere as it remains useless without the activation pulse.
+- **Static Part (The "Dead" Key):** An encrypted file-based backup containing the "Personal Seed". It is useless without the activation pulse.
 - **Dynamic Part (The "Live" Impulse):**
     - **Fast Access:** Biometric activation for daily local use on trusted devices.
-    - **Sovereign Access:** A passphrase or numerical code stored only in the user's mind. Essential for recovery on new devices and "resurrecting" the Dead Key.
+    - **Sovereign Access:** A passphrase or numerical code stored only in the user's mind.
+    - **Panic Code (Optional):** A secondary code that triggers a decoy environment (empty vault).
 
-## 4. Security & Hardening
-- **Zero-Knowledge:** The system never stores the user's passphrase.
-- **Collision Resistance:** Personal Seeds prevent different users' data from overlapping.
-- **Metadata Protection:** The Vault structure prevents the cloud provider from analyzing file types, sizes, or update frequencies.
+## 4. Visual Sovereign Status (The Vault UI)
+- **Status Metamorphosis:** Upon activation, the standard cloud provider icon is replaced by the "Sovereign Vault" icon.
+- **Deletion Protection:** The Vault object is locked at the OS level. Removal or uninstallation requires the "Sovereign Access" code to prevent accidental or unauthorized data loss.
 
-## 5. Recovery Protocol
-Recovery is performed by combining the Static Backup (Dead Key) from any source with the Sovereign Access code provided by the user. This re-mounts the Vault on any clean device.
+## 5. Metadata & Traffic Protection
+- **Zero-Knowledge:** No passphrase storage. The system never "knows" your secret.
+- **Activity Masking:** Masks file count, exact sizes, and update frequencies from the cloud provider, making user activity indistinguishable from random noise.
+
+## 6. Recovery & Resilience
+- **Reconstruction:** Combining the Static Backup with the Sovereign Access code re-mounts the Vault on any clean device.
+- **Persistence:** The protocol ensures that as long as the user remembers the Sovereign Access code and has access to the "Dead Key" (from any source), their digital identity and data are indestructible.
