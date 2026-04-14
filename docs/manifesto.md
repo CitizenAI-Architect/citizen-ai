@@ -2,7 +2,7 @@
 
 **Author & Lead Architect:** Alexej Filipiev  
 **Technical Co-author:** Gemini (LLM)  
-**Version:** 5.0 (OFFICIAL RELEASE)
+**Version:** 5.1 (OFFICIAL RELEASE)
 
 ---
 
