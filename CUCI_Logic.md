@@ -1,32 +1,32 @@
-# CUCI Logic: The Vault & Hybrid Anchor (Final Spec)
+# CUCI Logic: The Vault & Hybrid Anchor (Ver. 1.3 - Hardened)
 
 ## 1. The Fog Engine (Under the Hood)
-The mathematical algorithm responsible for data fragmentation and encryption.
-- **Operation:** Works invisibly "under the hood" to ensure a seamless experience.
-- **Personalized Fog:** Generates a unique "Mathematical Salt" (Personal Seed) during first activation, ensuring unique fog signatures for every user.
-- **Block-Level Processing (Chunking):** The Vault is divided into small encrypted blocks. This prevents sync conflicts and allows updating only changed parts of the data.
+- **Personalized Fog:** Generated via true entropy sensors (sensor noise/random touch).
+- **Block-Level Processing:** Vault is split into encrypted, anonymous chunks.
 
 ## 2. The Vault Protocol (Safe-within-a-Safe)
-- **Storage:** The cloud provider sees only an obfuscated collection of binary blocks.
-- **Visibility:** Internal structures (filenames, hierarchy, metadata) are completely hidden.
-- **Data Padding:** The system adds "noise" to blocks to mask the actual size and type of the files.
-- **RAM-Only Processing:** Decryption occurs strictly in the device's volatile memory (RAM) to prevent data leaks to the physical drive.
+- **Data Padding & Noise:** Full obfuscation of file sizes.
+- **RAM-Only Processing:** Zero footprint on the physical drive during operation.
 
-## 3. The Hybrid Key (The Lens Trigger)
-- **Static Part (The "Dead" Key):** An encrypted file-based backup containing the "Personal Seed". It is useless without the activation pulse.
-- **Dynamic Part (The "Live" Impulse):**
-    - **Fast Access:** Biometric activation for daily local use on trusted devices.
-    - **Sovereign Access:** A passphrase or numerical code stored only in the user's mind.
-    - **Panic Code (Optional):** A secondary code that triggers a decoy environment (empty vault).
+## 3. The Hybrid Key & Deniable Plausibility
+- **Zero-Persistence:** Keys are never cached.
+- **Sovereign Access:** Human-stored code only.
+- **Deniable Plausibility:** Support for multiple "hidden layers" within one Vault. Different codes reveal different data sets, making it impossible to prove a hidden layer exists.
 
 ## 4. Visual Sovereign Status (The Vault UI)
-- **Status Metamorphosis:** Upon activation, the standard cloud provider icon is replaced by the "Sovereign Vault" icon.
-- **Deletion Protection:** The Vault object is locked at the OS level. Removal or uninstallation requires the "Sovereign Access" code to prevent accidental or unauthorized data loss.
+- **Status Metamorphosis:** Cloud icon transforms into the Sovereign Vault.
+- **Deletion Protection:** OS-level lock on the Vault object.
 
 ## 5. Metadata & Traffic Protection
-- **Zero-Knowledge:** No passphrase storage. The system never "knows" your secret.
-- **Activity Masking:** Masks file count, exact sizes, and update frequencies from the cloud provider, making user activity indistinguishable from random noise.
+- **Scheduled Sync:** Breaks the time-link between user action and cloud upload.
+- **Anonymous Indexing:** The system retrieves data via deterministic hashes. The cloud provider does not know which Vault belongs to which CUCI.
 
 ## 6. Recovery & Resilience
-- **Reconstruction:** Combining the Static Backup with the Sovereign Access code re-mounts the Vault on any clean device.
-- **Persistence:** The protocol ensures that as long as the user remembers the Sovereign Access code and has access to the "Dead Key" (from any source), their digital identity and data are indestructible.
+- **Reconstruction:** Dead Key + Sovereign Access code = Instant recovery on any hardware.
+
+## 7. Self-Defense Protocol (Auto-Lock)
+- **Instant Volatility:** Immediate RAM wipe on app close or tab switch.
+- **Integrity Check:** Anti-tamper verification of the binary code.
+
+## 8. Blind Retrieval (The Ghost Link)
+- **No Identity Link:** The connection between the user's physical device and the storage blocks is masked. The system uses "blind" requests so the storage provider cannot build a user profile based on data access patterns.
